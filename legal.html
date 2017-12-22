@@ -1,1 +1,541 @@
-<h1>Placeholder</h1>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<style>
+/* custom css goes here */
+/*color: #FF007B;*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+.mc4wp-response {
+    display: none;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+    margin: 20px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #444;
+    padding-top: 0;
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x:hidden;
+    text-align: left;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+[hidden],
+template {
+    display: none;
+}
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0;
+}
+hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+}
+td,
+th {
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+a {
+    color: #FF007B;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #FF007B;
+    text-decoration: underline;
+}
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+figure {
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+}
+
+hr {
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: 0;
+    border-top: 1px solid #ecf0f1;
+}
+
+[role="button"] {
+    cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit;
+}
+h1,
+.h1 {
+    font-size: 39px;
+}
+h2,
+.h2 {
+    font-size: 32px;
+}
+h3,
+.h3 {
+    font-size: 26px;
+}
+h4,
+.h4 {
+    font-size: 19px;
+}
+h5,
+.h5 {
+    font-size: 15px;
+}
+h6,
+.h6 {
+    font-size: 12px;
+}
+p {
+    margin: 0 0 10.5px;
+}
+
+small,
+.small {
+    font-size: 86%;
+}
+mark,
+.mark {
+    background-color: #f39c12;
+    padding: .2em;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: left;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 10.5px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+dt,
+dd {
+    line-height: 1.42857143;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+}
+
+abbr[title],
+abbr[data-original-title] {
+    cursor: help;
+    border-bottom: 1px dotted #b4bcc2;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table {
+    background-color: transparent;
+}
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #b4bcc2;
+    text-align: left;
+}
+th {
+    text-align: left;
+}
+
+
+img {
+    width: calc(100% - 0px);  /*width: calc(100vw - 30px);*/
+    height: auto;
+    margin: 15px 0;
+    padding: 0px;
+    background: #eee;
+    max-height: 100%  /*min-height: 100%;*/
+    /*box-shadow: 0px 0px 8px rgba(0,0,0,0.3);*/
+    border-radius: 0px;
+    border: 1px solid #FF007B;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+h2, h3, h4{
+    padding-left: 17px;
+}
+h2::before, h3::before, h4::before, h5::before, h6::before {
+    border: 0px solid #ff0083;
+    width: 2px;
+    content: " ";
+    background: #ff0083;
+    position: absolute;
+    left: 0px;
+    display: block;
+    top: 0px;
+    height: 100%;
+    font-size: 0px;
+}
+h2::after, h3::after, h4::after, h5::after, h6::after  {
+    border: 0px solid #ff0083;
+    width: 2px;
+    content: " ";
+    /*background-color: #ff0083;*/
+    position: absolute;
+    right: -15px;
+    display: block;
+    top: 0px;
+    height: 100%;
+    font-size: 0px;
+}
+h1 {
+    font-size: 28px;
+    line-height: 30px;
+    background-color: #ff0083;
+    /*background-image: url(https://static.pexels.com/photos/17737/pexels-photo.jpg);*/
+    color: #fff;
+    margin: 0 -15px 15px;
+    padding: 30% 15px;
+    min-height: 50vh;
+    vertical-align: middle;
+    text-align: center;
+    background-size: cover;
+}
+h2{
+    color: #000;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #000;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+strong{
+    display: block;
+}
+
+</style>
+</head>
+<body>
+<h2>Terms of Service</h2>
+<p>We take your privacy and security very seriously, and aim to be transparent in informing you how we use your data and provide our services to you. You can understand our policies below, and we welcome feedback at [INSERT EMAIL ADDRESS]</p>
+<p><strong>1. Introduction and Acceptance</strong></p>
+<p>(a) THIS DOCUMENT IS AN ELECTRONIC RECORD IN TERMS OF THE INFORMATION TECHNOLOGY ACT, 2000 AND RULES MADE THEREUNDER. THIS ELECTRONIC RECORD IS GENERATED BY A COMPUTER SYSTEM AND DOES NOT REQUIRE ANY PHYSICAL OR DIGITAL SIGNATURES. THIS DOCUMENT IS PUBLISHED IN ACCORDANCE WITH THE PROVISIONS OF RULE 3(1) OF THE INFORMATION TECHNOLOGY (INTERMEDIARIES GUIDELINES) RULES, 2011 THAT REQUIRES PUBLISHING THE RULES AND REGULATIONS, PRIVACY POLICY AND TERMS OF USE FOR ACCESS OR USAGE OF THIS WEBSITE.</p>
+<p>(b) The domain name makeupandbeauty.com (hereinafter referred to as the &ldquo;Website&rdquo;) and corresponding mobile application (hereinafter referred to as the &ldquo;App&rdquo;) are owned by LA Edukreation Private Limited, a company incorporated under the Companies Act, 1956 with its registered office at M-43. GROUND FLOOR SRINIWASPURI NEW DELHI 110065, Delhi, (&ldquo;IMBB&ldquo;) having CIN U80901DL2007PTC159910.</p>
+<p>(c) The Website is aimed at providing, reviews of makeup products, articles on beauty, home remedies, skincare, hair etc., makeup looks, fashion articles, and the like.</p>
+<p>(d) The App is aimed at providing paid monthly subscriptions, articles of makeupandbeauty.com, video makeup tutorials, and the like.</p>
+<p>(e) IMBB reserves the right, at its sole discretion, to change, modify, add or remove portions of these Terms of Use (&ldquo;the Terms&rdquo;), at any time without any prior written notice to you. It is your sole responsibility to review these Terms periodically for updates or changes. Your continued use of the Website and the app following the posting of changes shall be deemed to mean that you accept and agree to the revisions. As long as you comply with these Terms, IMBB grants you a personal, non-exclusive, non-transferable, limited privilege to access and use the Website and the app.</p>
+<p>(f) The products and services provided by us via the Website and the App are on an &ldquo;AS IS&rdquo; and &ldquo;AS AVAILABLE&rdquo; basis and we reserve the right to modify, suspend or discontinue the Service, in its sole discretion, at any time and without notice. You agree to be bound by such modifications. We are and will not be liable to you for any modification, suspension or discontinuance of the Services and the Products as provided herein via the Website and the App.</p>
+<p><strong>2. Membership Eligibility</strong></p>
+<p>(a) Use of the Website and the app are available only to persons who can enter into legally binding contracts under the Indian Contract Act, 1872. Persons who are &ldquo;incompetent to contract&rdquo; within the meaning of the Indian Contract Act, 1872 including minors, un-discharged insolvents and persons of unsound mind are not eligible to use the Website and the app. Any person under the age of 18 shall not register on the Website and the app and shall not transact on or use the Website and the app.</p>
+<p>(b) If a minor wishes to use or transact on the Website and the app, such use or transaction may be made by the minor&rsquo;s legal guardian or parents on the Website and the app. IMBB reserves the right to terminate any person&rsquo;s membership and/or refuse to provide such person with access to the Website and the app if it is brought to IMBB&rsquo;s notice or if it is discovered that such person is not eligible to use the Website and the App.</p>
+<p><strong>3. Acceptance of Terms</strong></p>
+<p>Please carefully read these Terms. By accessing or using the Website and the App, you are agreeing to these Terms and concluding a legally binding contract with IMBB. You may not use the Website and the App if you do not accept the Terms or unable to be bound by the Terms. In order to use the Website and the App, you must first agree to the Terms. You can accept the Terms by Logging into IMBB; or Actually using the Website and the App. In this case, you understand and agree that IMBB will treat your use of the Website and the App as acceptance of the Terms from that point onwards.</p>
+<p><strong>4. Opening an Account</strong></p>
+<p>(a) In order to use the Website, you will have to create an account on the Website and the App (&ldquo;the Account&rdquo;). As part of the application, you will be required to provide an e-mail address and a password which is to be used for logging into the Account in the future. You shall not transfer or share your Account password with anyone, or create more than one Account.</p>
+<p>(b) You fully understand and agree that paid accounts are based on periodic subscription fees which is available for all users. You can refer to our paid package plans for more details on paid accounts subscriptions. The subscriptions fees will be billed according to the respective payment method chosen by the user.</p>
+<p>(c) You agree to pay for all charges and fees incurred in connection with your username and password for paid subscription service. All fees and charges are non-refundable. If you would like to cancel your subscription, switch to another paid service package or if you believe someone has accessed your account without your authorization, please contact us.</p>
+<p>(d) A paid account is non-transferable. You must not share your username and password with anyone else or allow anyone else to access the Site using your username and password.</p>
+<p>(e) You are responsible for the content you publish and distribute on the website and the app. You warrant that you own or have necessary licenses, rights, consents and permissions to publish the contents. You agree not to publish and create any content that violate our Terms of Service.</p>
+<p>(d) IMBB has the right to remove the content without any prior notice and fees or charges will not be refunded. You understand that your subscription or access to contents of the Site will be suspended if you violate the Terms of Service. Suspended accounts will not be restored and fees or charges will not be refunded.</p>
+<p>(e) You fully understand and agree that for paid accounts and paid subscriptions, we'll deliver the paid content until your paid account is active, but we won't be able to return any money if you choose to close your account while you still have an active payment plan. For further clarifications and issues regarding payments, refunds, etc., please contact us.</p>
+<p><strong>5. Usernames/Passwords</strong></p>
+<p>The confidentiality of your username and password is to be maintained by you and in case of any misappropriation or unauthorised access of the Account you agree to communicate the same promptly to IMBB. Any information regarding this will be sent to the e-mail address which was used at the time of sign up.</p>
+<p><strong>6. Agreement to receive Mails</strong></p>
+<p>You hereby by way of accepting these Terms consent to the receipt of communication from us by way of e-mails and newsletters.</p>
+<p><strong>7. Links to Third Party Websites</strong></p>
+<p>The Website and the app may contain links and interactive functionality interacting with the websites of third parties. IMBB is not responsible for and has no liability for the functionality, actions, inactions, privacy settings, privacy policies, terms, or content of any such website. Before enabling any sharing functions to communicate with any such website or otherwise visiting any such website, IMBB strongly recommends that you review and understand the terms and conditions, privacy policies, settings, and information-sharing functions of each such third-party website.</p>
+<p><strong>8. Use of the Website and App</strong></p>
+<p>You agree, undertake and covenant that, during the use of the Website and the App, you shall not host, display, upload, modify, publish, transmit, update or share any information that:</p>
+<ul>
+<li>belongs to another person or entity and to which you do not have any right.</li>
+<li>is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another person&rsquo;s privacy, hateful or racially or ethnically objectionable, or encouraging money laundering or gambling, or otherwise unlawful in any manner whatsoever.</li>
+<li>is misleading in any way.</li>
+<li>involves the transmission of &ldquo;junk mail&rdquo;, &ldquo;chain letters&rdquo;, or unsolicited mass mailing or &ldquo;spamming&rdquo;.</li>
+<li>infringes upon or violates any third party&rsquo;s rights including, but not limited to, intellectual property rights, rights of privacy (including without limitation unauthorized disclosure of a person&rsquo;s name, e-mail address, physical address or phone number) or rights of publicity.</li>
+<li>provides instructional information about illegal activities such as violating someone&rsquo;s privacy, or providing or creating computer viruses.</li>
+<li>tries to gain unauthorized access or exceeds the scope of authorized access to the Website or to profiles, blogs, communities, account information, bulletins, or other areas of the Website or solicits passwords or personally identifying information for commercial or unlawful purposes from other users of the Website.</li>
+<li>engages in commercial activities without IMBB&rsquo;s prior written consent such as engages in contests, sweepstakes, barter, advertising etc.</li>
+<li>interferes with another user&rsquo;s use of the Website and the app.</li>
+<li>refers to any website or URL that, in IMBB&rsquo;s sole discretion, contains material that is inappropriate for the Website and the App or any other website or any other App, contains content that would be prohibited or violates the letter or spirit of these Terms.</li>
+<li>deceives or misleads the addressee/ users about the origin of such messages or communicates any information which is grossly offensive or menacing in nature.</li>
+<li>contains software viruses or any other computer codes, files or programs designed to interrupt, destroy or limit the functionality of any computer resource; or contains any trojan horses, worms or other computer programming routines that may damage, detrimentally interfere with, diminish value of, covertly intercept or steal any system, data or personal information.</li>
+</ul>
+<p>9. Your Reviews and Comments</p>
+<p>(a) The Website and the app may allow you to post certain content, data or information of your own, such as reviewing your allowing you to share your experience and views about a particular post, post your comments and reviews in relation to contents on the Website or the app on specific pages of the Website or specific sections of the App, as well as submit any suggestions, comments, questions or other information to IMBB using the Website or the App (collectively referred to &ldquo;User Content&ldquo;).</p>
+<p>(b) You, being the originator of the User Content, are responsible for the User Content that you upload, post, publish, transmit or otherwise make available on the Website and the App. You represent that you have obtained all relevant consents and approvals in order to post any User Content. You further represent that all such User Content will be in accordance with applicable law.</p>
+<p>(c) You acknowledge that IMBB does not endorse any User Content on the Website and the App and is not responsible or liable for any User Content. IMBB reserves the right to disable access to the User Content on the Website.</p>
+<p>(d) You hereby grant IMBB a perpetual, non-revocable, worldwide, royalty-free and sub-licensable right and license to use, copy, distribute, display, publish, transmit, make available, reproduce, modify, adapt the User Content and create derivate works of the User Content.</p>
+<p>(e) You represent and warrant that you own or otherwise control all of the rights to the User Content that you post or that you otherwise provide on or through the Website; and that, as at the date that the User Content is posted or submitted on the Website:</p>
+<ol start="1">
+<li>the User Content is accurate;</li>
+<li>use of the User Content you supply does not breach these Terms; and</li>
+<li>that such User Content is lawful.</li>
+</ol>
+<p>(f) You further represent and warrant that while posting any User Content on the Website and the App, you shall not use any offensive, libellous, derogatory, hateful or racially or ethnically objectionable language. Further, you shall not post any content on the Website that is obscene, pornographic, constitutes an &ldquo;indecent representation of women&rdquo; as provided in The Indecent Representation of Women (Prohibition) Act, 1986.</p>
+<p><strong>10. Limitation of Liability</strong></p>
+<p>You hereby acknowledge that IMBB shall not be held liable to you for any special, consequential, incidental, and exemplary or punitive damages, or loss of profit or revenues. We are also not liable under any circumstances for damages arising out or related in any way to your inability to access, or your difficulty in accessing the Website, any bugs, viruses, trojan horses, or the like, which may be transmitted to or through the Website and the app by any third party, any loss of your data or content from the services, your failure to keep your password or Account details secure and confidential. IMBB shall not be liable under any circumstances for damages arising out of or in any way related to products, services and/or information offered or provided by third-party vendors accessed through the Website and the App.</p>
+<p><strong>11. Disclaimer of Warranties</strong></p>
+<p>THE WEBSITE, APP AND ALL INFORMATION, CONTENT, MATERIALS AND SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE WEBSITE (COLLECTIVELY, THE &ldquo;CONTENTS&rdquo;) ARE PROVIDED BY IMBB ON AN &ldquo;AS IS,&rdquo; &ldquo;AS AVAILABLE&rdquo; BASIS, WITHOUT REPRESENTATIONS OR WARRANTIES OF ANY KIND. IMBB MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THE WEBSITE, THE ACCURACY OR COMPLETENESS OF THE CONTENTS AND THE ACCURACY OF THE INFORMATION. IMBB SHALL HAVE NO RESPONSIBILITY FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY CONTENT, MATERIALS, DOCUMENT OR INFORMATION. YOU EXPRESSLY AGREE THAT THE USE OF THE WEBSITE AND THE APP IS AT YOUR SOLE RISK. IMBB WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THE WEBSITE OR THE APP OR THE CONTENTS INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE, AND CONSEQUENTIAL DAMAGES, UNLESS OTHERWISE SPECIFIED IN WRITING. TO THE FULL EXTENT PERMITTED BY LAW, IMBB DISCLAIMS ANY AND ALL REPRESENTATIONS AND WARRANTIES WITH RESPECT TO THE WEBSITE AND THE APP AND ITS CONTENTS, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE OR USE.</p>
+<p><strong>12. Indemnification</strong></p>
+<p>You shall indemnify and hold harmless IMBB, its owner, licensee, affiliates, subsidiaries, group companies (as applicable) and their respective officers, directors, agents, and employees, from any and all claims or demands, or actions including reasonable attorneys&rsquo; fees, made by any third party or penalty imposed due to or arising out of your breach of these Terms, Privacy Policy and other policies, or your violation of any law, rules or regulations or the rights (including infringement of any intellectual property rights) of a third party.</p>
+<p><strong>13. Content and Intellectual Property Rights</strong></p>
+<p>IMBB solely and exclusively owns copyrights, trademarks, service marks, logos, trade names, and other intellectual and proprietary rights associated with our Services and Contents and is protected under Indian law. You hereby acknowledge that the Services constitute original works and have been developed, compiled, prepared, revised, selected, and arranged by us and others through the application of methods and standards of judgment developed and applied through the expenditure of substantial time, effort, and money and constitutes valuable intellectual property of us and such others. You thereby agree to protect the proprietary rights of IMBB during and after the term of this agreement. You may not selectively download portions of the website and the app without retaining the copyright notices You may download material from the website and the app only for your own personal use and for no commercial purposes whatsoever. Any infringement shall lead to appropriate legal proceedings against you at appropriate forum for seeking all available remedies under applicable laws of the country.</p>
+<p><strong>14. Termination of Access to your Services</strong></p>
+<p>The Account can be terminated at any time by:</p>
+<ol start="1">
+<li>You by ceasing to use the Website and the app.</li>
+<li>IMBB, in its sole discretion for any reason or no reason including your violation of these Terms or lack of use of Services. You acknowledge that the termination of services may be affected without any prior notice, and IMBB may immediately deactivate or delete your account and all related information and/or bar any further access to your account or the services. Further, you agree that IMBB shall not be liable for any discontinuation or termination of services by any third party.</li>
+</ol>
+<p><strong>15. Privacy Policy</strong></p>
+<p>Please review our Privacy Policy, which also governs your visit to the Website and the App, to understand our practices. The personal information / data provided to us by you during the course of usage of the Website and the App will be treated as strictly confidential and in accordance with the Privacy Policy and applicable laws and regulations. If you object to your information being transferred or used, please do not use the Website or the App.</p>
+<p><strong>16. Governing Law</strong></p>
+<p>These Terms shall be governed by and interpreted and construed in accordance with the laws of India. The place of jurisdiction shall exclusively be in Delhi, India. In the event of any dispute arising out of these Terms the same shall be settled by a binding arbitration conducted by a sole arbitrator, appointed jointly by both parties and governed by the Arbitration and Conciliation Act, 1996. The venue of arbitration shall be Delhi, India.</p>
+<p><strong>17. Grievance Redressal Mechanism</strong></p>
+<p>In accordance with the Information Technology Act, 2000 and Rules made thereunder, the name and contact details of the Grievance Officer are provided below:</p>
+<p>Name: [INSERT NAME],</p>
+<p>Address: [INSERT ADDRESS]</p>
+<p>Phone: [INSERT PHONE]</p>
+<p>E-mail: [INSERT EMAIL]</p>
+<p><strong>18. Contact Us</strong></p>
+<p>If you have questions or concerns about this Policy, please contact us at [INSERT EMAIL]</p>
+<p>&nbsp;</p>
+<h2><strong>PRIVACY POLICY</strong></h2>
+<p><strong>1. Introduction</strong></p>
+<p>Welcome to makeupandbeauty.com, a platform run by LA Edukreation Private Limited (&ldquo;IMBB&rdquo;). IMBB is committed to respecting your online privacy and recognizes your need for appropriate protection and management of any information you share with IMBB on makeupandbeauty.com (the &ldquo;Website&rdquo;) and the corresponding mobile application (the &ldquo;App&rdquo;).</p>
+<p><strong>2. Scope</strong></p>
+<p>This privacy policy (&ldquo;Policy&rdquo;) is an electronic record in the form of an electronic contract formed under the Information Technology Act, 2000 and the rules made thereunder. This Policy does not require any physical, electronic or digital signature. This Policy is a legally binding document between you and IMBB. The terms of this Policy will be effective upon your acceptance of the same by use of the website, the app and will govern the relationship between you and IMBB for your use of the Website and the app.</p>
+<p><strong>3. Consent</strong></p>
+<p>By mere use of the Website and the App, you expressly consent to IMBB&rsquo;s use and disclosure of your Personal Information in accordance with this Policy. If you do not agree with the terms of this Policy, please do not use this Website and the App. This Policy shall be deemed to be incorporated into the Terms of Use of the Website and the App and shall be read in addition to the Terms of Use.</p>
+<p><strong>4. Information Collected</strong></p>
+<p>(i) The Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 defines &ldquo;Personal Information&rdquo; as any information that relates to a natural person, which, either directly or indirectly, in combination with other information available or likely to be available with a body corporate, is capable of identifying such person.</p>
+<p>(ii) For the purpose of this Policy, the term &ldquo;Personal Information&rdquo; shall mean any information you provide to IMBB and shall include, without limitation your name, phone number, your e-mail address, your financial information such as bank account or credit card or debit card or other payment details, your email ID and password.</p>
+<p>(iii) For the purpose of this Policy, the term &ldquo;Non-Personal Information&rdquo; shall mean information that does not specifically identify an individual but includes information from you, such as the type of internet browser you use, mobile device you use, your computer or your mobile device&rsquo;s unique device ID, the URL of the previous website you visited, your computer&rsquo;s operating system, your Internet Service Provider (ISP) and your Internet Protocol (IP) address. IMBB may also collect Non-Personal Information that you voluntarily provide, such as information included in response to a questionnaire or a survey conducted by IMBB.</p>
+<p><strong>5. Collection of Information</strong></p>
+<p>(i) IMBB may collect information from you when you register on the Website and the App through your Facebook account or e-mail account, when you use the features on the Website and the App, when you participate in surveys conducted by IMBB on the Website and the App and when you carry out transactions on the Website and the App.</p>
+<p>(ii) IMBB may use cookies to monitor the Website and the App usage including, without limitation, to provide useful features to simplify your experience when you return to the Website and the App, like remembering your login ID and certain Personal Information and to deliver relevant content based on your preferences, usage patterns and location.</p>
+<p>(iii) You may be also required to provide your credit/debit card details. IMBB will use this information only for billing purposes. For your convenience and if permitted by you, IMBB will save the billing information in the event you would like to carry out any other transaction on the Website and the App again.</p>
+<p>(iv) When you access the Website through a mobile device, you will have the option of downloading the mobile application of IMBB. In case you download the mobile application you will be asked if you would want to share your contact list with IMBB. You may choose not to share your contact list with IMBB, however in case you chose to share your contact lit with IMBB, IMBB shall have access to and store your contact list.</p>
+<p>(v) You may use the Website and the App without providing IMBB any Personal Information about yourself. However, you may not be able to access certain services of the Websites and the App in case you choose to do so.</p>
+<p><strong>6. Use of Information</strong></p>
+<p>IMBB uses your Personal and Non-Personal Information for certain purposes including but not limited to:</p>
+<ul>
+<li>Service-related Purpose: enabling you to use the Website and the App; providing you with information about products and services available on the Website and the App; resolving any glitches on the Website and the App including addressing any technical problems; improving your experience of navigating through the Website and the App, and carrying out transactions on the Website and the App; and improving the services and content on the Website and the App.</li>
+<li>Internal Business Purpose: IMBB may use your Non-Personal Information for internal business purposes, such as data analysis, research, developing new features, enhancing and improving existing services and in identifying usage trends. This information helps IMBB to constantly improve, personalize and customize the products and services it provides to you.</li>
+</ul>
+<p><strong>7. Sharing of Information</strong></p>
+<p>IMBB may disclose your Personal Information in the following ways:</p>
+<p>(i) Disclosure to Government authorities or as required by law</p>
+<p>IMBB may share your Personal Information with Government and/or statutory authorities in response to subpoenas, court orders, or other legal process; to establish or exercise legal rights; to defend against legal claims; or as otherwise required by law. IMBB warrants that such information will be disclosed only in accordance with applicable laws and regulations.</p>
+<p>(ii) Disclosure to Acquirers</p>
+<p>IMBB may disclose and/or transfer your Personal Information to an acquirer, assignee or other successor entity in connection with a sale, merger, or reorganization of all or substantially all of the equity, business or assets of IMBB.</p>
+<p>(iii) Disclosure to Merchants</p>
+<p>When you make a transaction on the Website and the App, IMBB may disclose your Personal Information with the merchant, with whom you have entered into the transaction with, to enable the merchant to complete your transaction.</p>
+<p>(iv) Disclosure to Facilitate Payment</p>
+<p>In order to process your transactions, IMBB may direct you to a payment gateway service provider of its own choice, which may have access to the Personal Information provided by you while making such payment.</p>
+<p>(v) Disclosure to Third Parties</p>
+<p>IMBB may engage third parties to provide various services to IMBB or collaborate with IMBB to host contests, events etc. If any such third party must have access to your Personal Information in order to perform its services, IMBB will require that third party to enter an agreement that binds the third party to the use and disclosure restrictions outlined in this Policy. IMBB may also share your information with third parties to conduct promotion and/or ad campaigns in case you have explicitly chose to authorise IMBB for sharing your information.</p>
+<p><strong>8. Protection of Information</strong></p>
+<p>(i) IMBB has taken adequate measures to protect the security of your Personal Information and to ensure that your choices for its intended use are honoured. IMBB takes adequate precautions to protect your data from loss, misuse, unauthorized access or disclosure, alteration, or destruction.</p>
+<p>(ii) IMBB assures you that your information is safe and secure. It uses industry standards, and physical, technical and administrative security measures to keep your Personal Information confidential and secure and IMBB shall not share your Personal Information with third parties, except as otherwise provided in this Policy.</p>
+<p>(iii) At IMBB, data is stored in password-controlled servers with limited access to employees and other personnel or consultants on a need-to-know basis. IMBB uses the encryption technology, which helps to protect your payment information such as your credit/debit card number, credit/debit card expiry date, your CVV number etc. Please note that e-mails, messaging and means of communication with IMBB are not encrypted, and therefore IMBB strongly advises you not to communicate any confidential information through these means.</p>
+<p>(iv) Access to your online account on the Website and the App is via Facebook or your e-mail which is password protected and this helps to secure your account information. You are solely responsible for maintaining the confidentiality of that password. To ensure safety of your Personal Information, you are advised against sharing your user name and password with anyone.</p>
+<p><strong>9. Cookies and Other Tracking Technologies</strong></p>
+<p>(i) The Website and the App utilizes cookies and other tracking technologies including any proprietary or third party tracking services. A cookie is a small text file that may be used, for example, to collect information about the Website activity. Some cookies and other technologies may serve to recall Personal and/or Non-Personal Information previously indicated by a user. Most browsers allow you to control cookies, including whether or not to accept them and how to remove them.</p>
+<p>(ii) You may set most browsers to notify you if you receive a cookie, or you may choose to block cookies with your browser, however, if you choose to erase or block your cookies, you shall have to re-enter your original user ID and password to gain access to certain parts of the Website and the App. Tracking technologies may record information such as internet domain and host names, internet protocol (IP) addresses, browser software and operating system types, clickstream patterns, and dates and times at which the Website is accessed. Our use of cookies and other tracking technologies allow us to improve our Website and the App and your experience in using our Website and the App.</p>
+<p><strong>10. Limitation of Liability</strong></p>
+<p>IMBB is not responsible for any breach of security or for any actions or inactions of any third parties that receive your Personal Information. Notwithstanding anything contained in this Policy or elsewhere, IMBB shall not be held responsible for any loss, damage or misuse of your Personal Information, if such loss, damage or misuse is attributable to a Force Majeure Event (as defined below).</p>
+<p>A &ldquo;Force Majeure Event&rdquo; shall mean any event that is beyond the reasonable control of IMBB and shall include, without limitation, sabotage, fire, flood, explosion, acts of God, civil commotion, strikes, lockouts or industrial action of any kind, riots, insurrection, war, acts of government, computer hacking, civil disturbances, unauthorised access to computer data and storage device, computer crashes, breach of security and encryption, and any other similar events not within the control of IMBB and which IMBB is not able to overcome.</p>
+<p><strong>11. Opt-Out</strong></p>
+<p>You have the option to &lsquo;opt-out&rsquo; of all IMBB&rsquo;s newsletters and other general e-mail marketing communications by way of links provided at the bottom of each mailer. IMBB respects your privacy and in the event that you choose to not receive such mailers, it shall take all adequate steps to remove you from such lists.</p>
+<p><strong>12. Changes to this Policy</strong></p>
+<p>IMBB reserves the right to update, change or modify this Policy at any time. The Policy shall come to effect from the date of such update, change or modification.</p>
+<p><strong>13. Grievance Redressal Mechanism</strong></p>
+<p>In accordance with the Information Technology Act, 2000 and Rules made thereunder, the name and contact details of the Grievance Officer are provided below:</p>
+<p>Name: [INSERT NAME],</p>
+<p>Address: [INSERT ADDRESS]</p>
+<p>Phone: [INSERT PHONE]</p>
+<p>E-mail: [INSERT EMAIL]</p>
+<p><strong>14. Contact Us</strong></p>
+<p>If you have questions or concerns about this Policy, please contact us at [INSERT EMAIL]</p>
+
+</body></html>
